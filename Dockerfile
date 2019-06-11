@@ -4,7 +4,7 @@ WORKDIR /root
 COPY . /root
 RUN npm config set proxy http://web-proxy.cn.hpicorp.net:8080
 RUN npm config set https-proxy http://web-proxy.cn.hpicorp.net:8080
-RUN npm install --verbose
+RUN npm install
 RUN npm run build:prod
 
 
