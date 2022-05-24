@@ -1,9 +1,9 @@
 
 
-English | [简体中文](./README.zh-CN.md) 
+English | [简体中文](./README.zh-CN.md)
 ## Introduction
-Based on 
-[vue-element-admin](https://panjiachen.github.io/vue-element-admin) 
+Based on
+[vue-element-admin](https://panjiachen.github.io/vue-element-admin)
 
 
 ## Getting started
@@ -16,7 +16,7 @@ git clone -b develop git@github.com:ypzhuang/web-console-starter.git
 cd web-console-starter
 
 # install dependency
-npm install
+npm install --registry=https://registry.npm.taobao.org
 
 # develop
 npm run dev
